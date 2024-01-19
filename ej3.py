@@ -3,6 +3,9 @@
 2. Ejercicio: Imprime los números pares del 1 al 20 usando un bucle while .
 3. Ejercicio: Usa un bucle para calcular la suma de los números del 1 al 100.
 '''
+import opcode
+
+
 num = 0
 while num < 11 :
   print(num)
@@ -14,3 +17,10 @@ while nume < 21:
     if nume % 2 ==0:
       print(nume)
     nume +=1
+
+suma = 0
+if suma in range(1, 101):
+  suma += 1
+print(suma)
+
+
